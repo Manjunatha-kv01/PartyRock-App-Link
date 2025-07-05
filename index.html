@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PartyRock App Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="app-container">
+        <header>
+            <h1>🎉 PartyRock App Clone 🎸</h1>
+            <p>Describe the app, story, or content you want to create!</p>
+        </header>
+
+        <main>
+            <div class="input-section">
+                <textarea id="prompt-input" placeholder="e.g., 'Write a short poem about coding' or 'Suggest a recipe for a vegan pasta'"></textarea>
+                <button id="generate-btn">Generate ✨</button>
+            </div>
+
+            <div class="output-section">
+                <h2>Generated Response:</h2>
+                <div id="output-container">
+                    <pre><code id="response-output">Your generated content will appear here...</code></pre>
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <p>A front-end clone inspired by Amazon PartyRock. AI is simulated.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
